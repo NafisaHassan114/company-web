@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo i{
+    font-size: 40px;
+    color: rgb(114, 200, 234);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+}
+.header ul li{
+    padding: 10px 20px;
+
+}
+.header ul li:hover{
+    color: white;
+    background-color: red;
+
+}
+.signinbtn{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    margin-right: 8px;
+}
+.getbtn{
+    font-size: 16px;
+    border: 2px skyblue solid;
+    border-radius: 6px;
+    color: skyblue;
+    background-color: transparent;
+    margin: 10px 10px;
+    padding: 5px 10px;
+}
+.main{
+    display: flex;
+    gap: 20px;
+    padding: 90px 50px;
+    background-color: skyblue;
+    height: 500px;
+}
+span{
+    color: blue;
+}
+.main img{
+         width: 400px;
+         height: 340px;
+         border-radius: 40px;
+         padding-top: 20px;
+}
+.main h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
